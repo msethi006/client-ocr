@@ -1,0 +1,4 @@
+paddlepaddle
+streamlit
+opencv-python
+numpy
