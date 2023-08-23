@@ -1,11 +1,9 @@
 # Client-OCR
 
 ## Prerequisites
-Python 3.8 installed on your system.
-
-## Setup  
-cd client-ocr (Move inside project directory)  
-pip install -r .\requirements.txt
+Docker
 
 ## Usage
-streamlit run .\app.py
+cd client-ocr (Move inside project directory)  
+sudo docker build -t client-ocr .
+sudo docker run -p 8501:8501 client-ocr
